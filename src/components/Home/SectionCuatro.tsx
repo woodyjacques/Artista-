@@ -1,9 +1,9 @@
-import mujerCanto from "../../assets/img/mujerCanto.png"; 
-import friend from "../../assets/img/friend.jpg"; 
+import mujerCanto from "../../assets/img/mujerCanto.png";
+import friend from "../../assets/img/friend.jpg";
 
 function SeccionCuatro() {
     return (
-        <div className="font-arima relative w-full h-[700px] md:h-[700px] flex flex-col md:flex-row items-end rounded-3xl overflow-hidden">
+        <div className="font-arima relative w-full min-h-[600px] md:min-h-[900px] flex flex-col md:flex-row items-end rounded-b-3xl overflow-hidden">
 
             <img
                 src={friend}
@@ -11,31 +11,29 @@ function SeccionCuatro() {
                 className="absolute top-0 left-0 w-full h-full object-cover"
             />
 
-            <div className="absolute top-0 left-0 w-full h-full bg-blue-900 bg-opacity-90 rounded-3xl"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-blue-900 bg-opacity-90 rounded-b-3xl"></div>
 
-            <div className="absolute z-0 w-[400px] h-[400px] bg-red-800 rounded-full bottom-0 left-[10%] md:left-[10%] translate-y-[-40%]"></div>
-
-            <div className="relative z-10 w-full md:w-1/2 flex justify-center items-end h-full mb-4">
+            <div className="relative z-10 w-full md:w-1/2 flex justify-center items-center md:items-end h-full mb-4 md:mb-0">
                 <img
                     src={mujerCanto}
                     alt="Mujer cantando"
-                    className="w-4/5 max-w-xs md:max-w-md transform scale-x-[-1] rounded-b-lg"
+                    className="w-1/2 sm:w-3/5 max-w-[550px] sm:max-w-[650px] md:max-w-[800px] transform rounded-b-lg"
                 />
             </div>
 
-            <div className="relative z-10 w-full md:w-1/2 text-center md:text-right flex flex-col justify-between h-full px-6 md:px-16 py-12 md:py-20">
+            <div className="relative z-10 w-full md:w-1/2 text-center md:text-right flex flex-col justify-end h-full px-4 sm:px-8 md:px-16 py-12 sm:py-16 md:py-24">
 
-                <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">¿Por qué ser parte del Club?</h2>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">¿Por qué ser parte del Club?</h2>
 
-                <p className="text-lg md:text-xl lg:text-2xl leading-relaxed md:leading-loose lg:leading-[2] text-white mb-auto">
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed sm:leading-normal md:leading-loose lg:leading-[2] text-white mb-6 sm:mb-8">
                     Al unirte al Club de Artistas 593, accedes a una serie de beneficios diseñados<br />
                     específicamente para apoyar tu bienestar, desarrollo artístico y crecimiento personal.<br />
                     Nuestras membresías te brindan oportunidades únicas para mejorar tu salud, promover tu<br />
                     carrera y disfrutar de servicios exclusivos que harán una diferencia en tu vida artística.
                 </p>
 
-                <div className="absolute bottom-12 right-6 md:right-16">
-                    <button className="bg-yellow-400 text-blue-900 font-semibold py-3 px-6 rounded-full hover:bg-yellow-300 transition duration-300">
+                <div className="relative z-10 flex justify-center md:justify-end">
+                    <button className="bg-yellow-400 text-blue-900 font-semibold py-2 px-4 sm:py-3 sm:px-6 rounded-full hover:bg-yellow-300 transition duration-300">
                         Ver las membresías
                     </button>
                 </div>
