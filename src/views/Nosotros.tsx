@@ -10,12 +10,15 @@ import SectionUno from "../components/Home/SectionUno";
 function Nosotros() {
     return (
         <div>
-            <Header />
-            <SectionCinco/>
-            <SectionCuatro/>
+            <Header
+                title="Un Compromiso con el Arte y los Artistas del Ecuador"
+                subtitle="Nuestra historia"
+            />
+            <SectionCinco />
+            <SectionCuatro />
             <SectionUno />
-            <SectionTres/>
-            <SectionDos/>
+            <SectionTres />
+            <SectionDos />
             <SectionCero />
             <Footer />
         </div>

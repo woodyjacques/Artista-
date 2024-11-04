@@ -3,7 +3,12 @@ import { FacebookSvg, TwitterSvg, InstagramSvg, LinkedInSvg } from "../../assets
 import logo from "../../assets/img/logo.png"
 import young from "../../assets/img/young.jpg";
 
-function Header() {
+interface SectionTresProps {
+    title: string;
+    subtitle: string;
+}
+
+function Header({title,subtitle}:SectionTresProps) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -140,14 +145,10 @@ function Header() {
                 <div className="rounded-b-lg font-arima relative text-white py-16 lg:py-32">
                     <div className="container mx-auto relative z-10 flex flex-col lg:flex-row items-center justify-between px-4 sm:px-8">
                         <div className="lg:w-2/3 space-y-4 sm:space-y-6">
-                            <h3 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 sm:mb-6">
-                                Un Compromiso con el Arte y los Artistas del Ecuador
-                            </h3>
+                            <h3 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 sm:mb-6">{title}</h3>
                             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight relative">
-                                <span className="relative z-20">Nuestra historia</span>
-                                <span className="absolute top-0 left-0 text-4xl sm:text-5xl lg:text-7xl text-blue-300 opacity-50 transform translate-x-2 sm:translate-x-4 lg:translate-x-6 translate-y-2 sm:translate-y-4 lg:translate-y-6">
-                                    Nuestra historia
-                                </span>
+                                <span className="relative z-20">{subtitle}</span>
+                                <span className="absolute top-0 left-0 text-4xl sm:text-5xl lg:text-7xl text-blue-300 opacity-50 transform translate-x-2 sm:translate-x-4 lg:translate-x-6 translate-y-2 sm:translate-y-4 lg:translate-y-6">{subtitle}</span>
                             </h1>
                         </div>
                         <div className="mt-8 lg:mt-0 lg:ml-auto">
