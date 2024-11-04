@@ -1,5 +1,4 @@
 import { useState } from "react";
-import SectionDiez1 from "../../assets/img/SectionDiez.png";
 import { FacebookSvg, TwitterSvg, InstagramSvg, LinkedInSvg } from "../../assets/svg/RedesFooter";
 import logo from "../../assets/img/logo.png"
 import young from "../../assets/img/young.jpg";
@@ -138,39 +137,27 @@ function Header() {
                     </div>
                 </header>
 
-                <div className="rounded-b-lg font-arima relative bg-transparent text-white py-16 lg:py-32">
-                    <div className="container mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
-                        <div className="space-y-6 sm:space-y-8 px-4 sm:px-8 lg:px-0">
-                            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8">
-                                Apoyando el Talento Artístico de Ecuador
+                <div className="rounded-b-lg font-arima relative text-white py-16 lg:py-32">
+                    <div className="container mx-auto relative z-10 flex flex-col lg:flex-row items-center justify-between px-4 sm:px-8">
+                        <div className="lg:w-2/3 space-y-4 sm:space-y-6">
+                            <h3 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 sm:mb-6">
+                                Un Compromiso con el Arte y los Artistas del Ecuador
                             </h3>
-                            <h1 className="text-4xl sm:text-6xl lg:text-8xl font-bold mb-6 sm:mb-10 relative z-20">
-                                <span className="relative">Transformando</span>
-                                <span className="absolute top-0 left-0 text-4xl sm:text-6xl lg:text-8xl text-blue-200 opacity-50 transform translate-x-2 sm:translate-x-4 lg:translate-x-6 translate-y-2 sm:translate-y-4 lg:translate-y-6">
-                                    Transformando
+                            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight relative">
+                                <span className="relative z-20">Nuestra historia</span>
+                                <span className="absolute top-0 left-0 text-4xl sm:text-5xl lg:text-7xl text-blue-300 opacity-50 transform translate-x-2 sm:translate-x-4 lg:translate-x-6 translate-y-2 sm:translate-y-4 lg:translate-y-6">
+                                    Nuestra historia
                                 </span>
                             </h1>
-                            <p className="text-base sm:text-lg lg:text-xl mb-8 sm:mb-12">
-                                Brindamos apoyo integral a los artistas que más lo necesitan, ofreciendo recursos, capacitación y acompañamiento. Juntos, estamos transformando el arte en una poderosa herramienta de cambio social, cultural y económico en Ecuador.
-                            </p>
-                            <div className="flex space-x-4 sm:space-x-6">
-                                <button className="bg-red-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full shadow-lg hover:bg-red-700 transition text-base sm:text-lg lg:text-xl">
-                                    Ver proyectos
-                                </button>
-                                <button className="bg-yellow-500 text-black px-5 sm:px-6 py-2 sm:py-3 rounded-full shadow-lg hover:bg-yellow-600 transition text-base sm:text-lg lg:text-xl">
-                                    Hacer donación
-                                </button>
-                            </div>
                         </div>
-
-                        <div className="flex justify-center lg:justify-end">
-                            <div className="w-full max-w-xs sm:max-w-md lg:max-w-lg h-auto overflow-hidden">
-                                <img src={SectionDiez1} alt="Artista" className="w-full h-auto" />
-                            </div>
+                        <div className="mt-8 lg:mt-0 lg:ml-auto">
+                            <button className="bg-yellow-500 text-black px-6 py-3 rounded-full shadow-lg hover:bg-yellow-600 transition text-base sm:text-lg lg:text-xl">
+                                Hacer donación
+                            </button>
                         </div>
-
                     </div>
                 </div>
+
             </div>
         </div>
     );
