@@ -4,7 +4,7 @@ function SectionCinco() {
     const [selectedAmount, setSelectedAmount] = useState(10);
 
     return (
-        <div className="relative z-50 mb-20 -mt-10 font-arima max-w-4xl mx-auto p-8 flex flex-col lg:flex-row items-center lg:items-start gap-8 bg-white rounded-lg shadow-lg">
+        <div className="font-quicksand relative z-50 mb-20 -mt-10 font-arima max-w-4xl mx-auto p-8 flex flex-col lg:flex-row items-center lg:items-start gap-8 bg-white rounded-lg shadow-lg">
 
             <div className="lg:w-1/2 space-y-4">
                 <h2 className="text-3xl font-bold text-gray-900">Hacer donación</h2>

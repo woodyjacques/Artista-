@@ -16,7 +16,7 @@ interface SectionTresProps2 {
 
 function SectionCuatro() {
     return (
-        <div className="font-arima flex flex-col lg:flex-row bg-gray-100 p-8 rounded-lg shadow-md max-w-7xl mx-auto">
+        <div className="font-quicksand flex flex-col lg:flex-row bg-gray-100 p-8 rounded-lg shadow-md max-w-7xl mx-auto">
 
             <div className="relative bg-blue-900 text-white p-8 rounded-lg flex flex-col items-start justify-center space-y-6 mb-8 lg:mb-0 lg:mr-8 lg:w-1/3 max-w-sm lg:max-w-md" style={{ backgroundImage: `url(${young})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="absolute inset-0 bg-blue-900 opacity-80 rounded-lg z-0"></div>
@@ -69,7 +69,7 @@ function BenefitItem({ icon, title, description }: SectionTresProps2) {
         <div className="flex items-start space-x-4">
             <img src={icon} alt={title} className="rounded-full p-2 flex items-center justify-center w-20 h-18" />
             <div>
-                <h4 className="text-xl font-semibold text-gray-800">{title}</h4>
+                <h4 className="text-xl font-bold text-gray-800">{title}</h4>
                 <p
                     className="text-gray-600 text-base mt-1"
                     dangerouslySetInnerHTML={{ __html: description }}

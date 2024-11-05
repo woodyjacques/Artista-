@@ -1,6 +1,6 @@
 function SectionDos() {
     return (
-        <div className="font-arima px-4 py-8 sm:px-6 lg:px-8 bg-white">
+        <div className="font-quicksand px-4 py-8 sm:px-6 lg:px-8 bg-white">
             <div className="max-w-6xl mx-auto text-gray-600">
                 <p className="text-lg sm:text-xl leading-relaxed mb-6">
                     Desde el principio, nuestro objetivo ha sido claro: convertirnos en una organización de apoyo integral para los artistas vulnerables del país. A través de proyectos de capacitación, apoyos económicos y sociales, y la creación de una red de artistas solidarios, trabajamos para que el arte florezca sin importar las limitaciones.

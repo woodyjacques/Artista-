@@ -7,7 +7,7 @@ import CardTransparencia from "./components/CardTransparencia";
 
 function SectionCuatro() {
     return (
-        <div className="font-arima grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8 mx-auto justify-items-center">
+        <div className="font-quicksand grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8 mx-auto justify-items-center">
             <CardSolidaridad/>
             <CardInclusividad />
             <CardInnovacion/>

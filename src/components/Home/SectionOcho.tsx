@@ -3,7 +3,7 @@ import SectionOcho1 from "../../assets/img/SectionOcho.png";
 
 function SectionOcho() {
     return (
-        <div className="font-arima bg-white py-10 lg:py-20">
+        <div className=" font-quicksand py-10 lg:py-20">
             <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-center">
                 <div className="rounded-lg overflow-hidden">
                     <img src={SectionOcho1} alt="Artistas tocando instrumentos" className="w-full h-auto object-cover rounded-lg shadow-lg" />
@@ -20,7 +20,7 @@ function SectionOcho() {
                         La Fundación Artistas 593, creada en octubre de 2023, tiene como misión mejorar la calidad de vida de los artistas vulnerables en Ecuador. A través de proyectos de capacitación, apoyos económicos y una red de solidaridad, buscamos que el talento artístico florezca sin limitaciones.
                         En nuestro primer año, hemos crecido enfrentando desafíos internos, implementando mejoras, y apoyando a artistas en la realización de sus proyectos, estudios y bienestar. Seguimos comprometidos con hacer del arte una fuerza transformadora y accesible para todos los creadores del país.
                     </p>
-                    <button className="bg-red-700 text-white px-6 py-3 rounded-full shadow-lg transition-transform hover:scale-105">
+                    <button className=" font-bold bg-red-800 text-white px-6 py-3 rounded-full shadow-lg transition-transform hover:scale-105">
                         Saber más
                     </button>
                 </div>

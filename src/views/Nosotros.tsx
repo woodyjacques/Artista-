@@ -1,11 +1,11 @@
-import Header from "../components/Contact/Header";
-import SectionCinco from "../components/Contact/SectionCinco";
-import SectionCuatro from "../components/Contact/SectionCuatro";
-import SectionDos from "../components/Contact/SectionDos";
-import SectionTres from "../components/Contact/SectionTres";
 import Footer from "../components/Home/Footer";
 import SectionCero from "../components/Home/SectionCero";
 import SectionUno from "../components/Home/SectionUno";
+import Header from "../components/Nosotros/Header";
+import SectionCinco from "../components/Nosotros/SectionCinco";
+import SectionCuatro from "../components/Nosotros/SectionCuatro";
+import SectionDos from "../components/Nosotros/SectionDos";
+import SectionTres from "../components/Nosotros/SectionTres";
 
 function Nosotros() {
     return (

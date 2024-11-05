@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../views/Home";
-import Club from "../views/Club.";
+import Club from "../views/Club";
 import Contacto from "../views/Contacto";
 import Donaciones from "../views/Donaciones";
 import Eventos from "../views/Eventos";

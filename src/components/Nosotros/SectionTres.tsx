@@ -3,7 +3,7 @@ import SectrionTresContact from "../../assets/img/SectrionTresContact.png"
 function SectionTres() {
     return (
         <div>
-            <div className="font-arima bg-white py-10 lg:py-20">
+            <div className="font-quicksand bg-white py-10 lg:py-20">
                 <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-center">
                     <div className="rounded-lg overflow-hidden">
                         <img src={SectrionTresContact} alt="Artistas tocando instrumentos" className="w-full h-auto object-cover rounded-lg shadow-lg" />

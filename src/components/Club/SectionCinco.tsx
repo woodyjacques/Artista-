@@ -1,6 +1,6 @@
 function SectionCinco() {
     return (
-        <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-6">
+        <div className="font-quicksand grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-6">
 
             <div className="bg-white rounded-lg shadow-md p-8 max-w-xs mx-auto space-y-6 h-80">
                 <div className="flex items-center">
@@ -9,7 +9,7 @@ function SectionCinco() {
                     </div>
                 </div>
                 <div>
-                    <h4 className="text-xl font-semibold text-gray-800">
+                    <h4 className="text-xl font-bold text-gray-800">
                         Beneficios de Salud y Bienestar
                     </h4>
                     <p className="text-gray-600 text-base mt-4 leading-relaxed">
@@ -25,7 +25,7 @@ function SectionCinco() {
                     </div>
                 </div>
                 <div>
-                    <h4 className="text-xl font-semibold text-gray-800">
+                    <h4 className="text-xl font-bold text-gray-800">
                         Apoyo en tu Desarrollo Artístico
                     </h4>
                     <p className="text-gray-600 text-base mt-4 leading-relaxed">
@@ -41,7 +41,7 @@ function SectionCinco() {
                     </div>
                 </div>
                 <div>
-                    <h4 className="text-xl font-semibold text-gray-800">
+                    <h4 className="text-xl font-bold text-gray-800">
                         Prioritaria
                     </h4>
                     <p className="text-gray-600 text-base mt-4 leading-relaxed">
@@ -57,7 +57,7 @@ function SectionCinco() {
                     </div>
                 </div>
                 <div>
-                    <h4 className="text-xl font-semibold text-gray-800">
+                    <h4 className="text-xl font-bold text-gray-800">
                         Seguridad y Apoyo Integral
                     </h4>
                     <p className="text-gray-600 text-base mt-4 leading-relaxed">

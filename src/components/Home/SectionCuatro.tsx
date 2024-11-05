@@ -3,7 +3,7 @@ import friend from "../../assets/img/friend.jpg";
 
 function SeccionCuatro() {
     return (
-        <div className="font-arima relative w-full min-h-[600px] md:min-h-[900px] flex flex-col md:flex-row items-end rounded-b-3xl overflow-hidden">
+        <div className="font-quicksand relative w-full min-h-[600px] md:min-h-[900px] flex flex-col md:flex-row items-end rounded-b-3xl overflow-hidden">
 
             <img
                 src={friend}
@@ -33,7 +33,7 @@ function SeccionCuatro() {
                 </p>
 
                 <div className="relative z-10 flex justify-center md:justify-end">
-                    <button className="bg-yellow-400 text-blue-900 font-semibold py-2 px-4 sm:py-3 sm:px-6 rounded-full hover:bg-yellow-300 transition duration-300">
+                    <button className="text-black font-bold bg-yellow-400 font-semibold py-2 px-4 sm:py-3 sm:px-6 rounded-full hover:bg-yellow-300 transition duration-300">
                         Ver las membresías
                     </button>
                 </div>

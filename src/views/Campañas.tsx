@@ -3,10 +3,10 @@ import SectionCuatro from "../components/Campañas/SectionCuatro";
 import SectionDos from "../components/Campañas/SectionDos";
 import SectionSeis from "../components/Campañas/SectionSeis";
 import SectionTres from "../components/Campañas/SectionTres";
-import Header from "../components/Contact/Header";
 import Footer from "../components/Home/Footer";
 import SectionCero from "../components/Home/SectionCero";
 import SectionUno from "../components/Home/SectionUno";
+import Header from "../components/Nosotros/Header";
 
 function Campañas() {
     return (

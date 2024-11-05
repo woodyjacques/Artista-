@@ -3,7 +3,7 @@ import logo from "../../assets/img/logo.png"
 
 function Footer() {
     return (
-        <div className="font-arima text-[1.1em]">
+        <div className="font-quicksand text-[1.1em]">
             <footer className="bg-blue-900 text-white p-10 flex flex-col lg:flex-row justify-between">
                 <div className="flex-1 min-w-[200px] m-2">
                     <h3 className="font-bold mb-4"><img src={logo} alt="" /></h3>

@@ -17,7 +17,7 @@ interface SectionTresProps2 {
 
 function SectionDos() {
     return (
-        <div className="font-arima flex flex-col lg:flex-row bg-gray-100 p-8 rounded-lg shadow-md max-w-7xl mx-auto">
+        <div className="font-quicksand flex flex-col lg:flex-row bg-gray-100 p-8 rounded-lg shadow-md max-w-7xl mx-auto">
 
             <div className="flex-1 space-y-8">
                 <BenefitItem icon={apoyo} title="Apoyo en Vuelos Nacionales e Internacionales" description="Tarifa de Vuelo: Disfruta de apoyo en la tarifa de tus vuelos nacionales e internacionales, con la posibilidad de planificar con 2 meses de anticipación. Restricciones: No aplica en temporadas altas; los impuestos de vuelo son a cargo del artista y solo se incluye el equipaje de mano." />
@@ -52,7 +52,7 @@ function BenefitItem({ icon, title, description }: SectionTresProps2) {
         <div className="flex items-start space-x-4">
             <img src={icon} alt={title} className="rounded-full p-2 flex items-center justify-center w-20 h-18" />
             <div>
-                <h4 className="text-xl font-semibold text-gray-800">{title}</h4>
+                <h4 className="text-xl font-bold text-gray-800">{title}</h4>
                 <p className="text-gray-600 text-base mt-1">{description}</p>
             </div>
         </div>

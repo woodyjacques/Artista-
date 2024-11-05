@@ -1,9 +1,9 @@
 function SectionSeis() {
     return (
-        <div className="mt-20 font-arima max-w-6xl mx-auto flex flex-col lg:flex-row items-start lg:items-center gap-12 p-12">
+        <div className="font-quicksand mt-20 max-w-6xl mx-auto flex flex-col lg:flex-row items-start lg:items-center gap-12 p-12">
 
             <div className="lg:w-1/2">
-                <p className="text-red-600 font-semibold text-xl">Impulsa tu Arte</p>
+                <p className="text-red-800 font-bold text-xl">Impulsa tu Arte</p>
                 <h2 className="text-4xl font-bold text-gray-900">Sé Parte del Club</h2>
             </div>
 

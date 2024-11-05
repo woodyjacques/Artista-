@@ -2,7 +2,7 @@ import SectionSeis1 from "../../assets/img/SectionSeis.png";
 
 function SectionSeis() {
   return (
-    <div className="font-arima bg-white py-10 md:py-20">
+    <div className="font-quicksand bg-white py-10 md:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
         <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">

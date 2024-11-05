@@ -1,12 +1,15 @@
+import tv1 from "../../assets/img/tv1.png";
+import tv2 from "../../assets/img/tv2.png";
+
 function SectionCinco() {
     return (
-        <div className="font-arima text-center py-8 relative">
+        <div className="font-quicksand text-center py-8 relative">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 md:mb-16">Membresías del Club</h2>
             <div className="flex flex-col md:flex-row justify-center space-y-12 md:space-y-0 md:space-x-12 relative z-10">
 
                 <div className="bg-white relative max-w-xl w-full rounded-lg border border-gray-200 p-8 md:p-12 shadow-lg min-h-[400px] md:min-h-[600px] text-left transform md:translate-y-40">
                     <h3 className="absolute top-12 left-0 w-full md:w-2/3 bg-yellow-500 text-black text-lg font-semibold p-4 rounded-r-lg">
-                        <span className="inline-block mr-2">🏷️</span> Membresía Básica
+                        <span className="inline-block mr-2"><img src={tv2} alt="" className="w-8 h-8" /></span>Membresía Básica
                     </h3>
 
                     <div className="pt-16 md:pt-20 text-center">
@@ -24,7 +27,7 @@ function SectionCinco() {
                             <li>• Beneficios en Gimnasio</li>
                         </ul>
 
-                        <button className="bg-yellow-500 text-black mt-6 py-3 px-4 w-full md:w-2/3 rounded-full hover:bg-yellow-600 mx-auto block">
+                        <button className="font-bold bg-yellow-500 text-black mt-6 py-3 px-4 w-full md:w-2/3 rounded-full hover:bg-yellow-600 mx-auto block">
                             Quiero afiliarme
                         </button>
                     </div>
@@ -32,7 +35,7 @@ function SectionCinco() {
 
                 <div className="bg-white relative max-w-xl w-full rounded-lg border border-gray-200 p-8 md:p-12 shadow-lg min-h-[400px] md:min-h-[600px] text-left transform md:translate-y-40">
                     <h3 className="absolute top-12 left-0 w-full md:w-2/3 bg-red-700 text-white text-lg font-semibold p-4 rounded-r-lg">
-                        <span className="inline-block mr-2">🏷️</span> Membresía GOLD
+                        <span className="inline-block mr-2"><img src={tv1} alt="" className="w-8 h-8" /></span> Membresía GOLD
                     </h3>
 
                     <div className="pt-16 md:pt-20 text-center">
@@ -50,7 +53,7 @@ function SectionCinco() {
                             <li>• Tarjetas BONO</li>
                         </ul>
 
-                        <button className="bg-red-700 text-white mt-6 py-3 px-4 w-full md:w-2/3 rounded-full hover:bg-red-800 mx-auto block">
+                        <button className="font-bold bg-red-700 text-white mt-6 py-3 px-4 w-full md:w-2/3 rounded-full hover:bg-red-800 mx-auto block">
                             Quiero afiliarme
                         </button>
                     </div>
