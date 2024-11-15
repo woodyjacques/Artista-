@@ -5,7 +5,7 @@ import direccion from "../../assets/img/direccion.png";
 
 function SectionTres() {
     return (
-        <div className="font-quicksand mb-20 top-20 max-w-7xl mx-auto p-8 flex flex-col lg:flex-row gap-12">
+        <div className=" font-aristotelicaLight mb-20 top-20 max-w-7xl mx-auto p-8 flex flex-col lg:flex-row gap-12">
 
             <div className="flex flex-col gap-6 lg:w-1/3">
 
@@ -13,7 +13,7 @@ function SectionTres() {
                     <img src={correoWeb} alt="Correo electrónico" className="w-12 h-12 rounded-full p-2" />
                     <div>
                         <h4 className="text-gray-800 font-bold">Correo electrónico</h4>
-                        <p className="text-gray-600 text-sm">fundacion593@hotmail.com</p>
+                        <p className="text-gray-600 text-sm font-quicksand">fundacion593@hotmail.com</p>
                     </div>
                 </div>
 
@@ -21,7 +21,7 @@ function SectionTres() {
                     <img src={telefono} alt="Teléfono" className="w-12 h-12 rounded-full p-2" />
                     <div>
                         <h4 className="text-gray-800 font-bold">Teléfono</h4>
-                        <p className="text-gray-600 text-sm">+593 987654334</p>
+                        <p className="text-gray-600 text-sm font-quicksand">+593 987654334</p>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ function SectionTres() {
                     <img src={direccion} alt="Dirección" className="w-12 h-12 rounded-full  p-2" />
                     <div>
                         <h4 className="text-gray-800 font-bold">Dirección</h4>
-                        <p className="text-gray-600 text-sm">Ruta 36 km, Los Cerrillos, Canelones</p>
+                        <p className="text-gray-600 text-sm font-quicksand">Ruta 36 km, Los Cerrillos, Canelones</p>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@ function SectionTres() {
                     <img src={paginaWeb} alt="Página Web" className="w-12 h-12 rounded-full p-2" />
                     <div>
                         <h4 className="text-gray-800 font-bold">Página Web</h4>
-                        <p className="text-gray-600 text-sm">www.fundacion593.ec</p>
+                        <p className="text-gray-600 text-sm font-quicksand">www.fundacion593.ec</p>
                     </div>
                 </div>
             </div>

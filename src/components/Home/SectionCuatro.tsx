@@ -3,7 +3,7 @@ import friend from "../../assets/img/friend.jpg";
 
 function SeccionCuatro() {
     return (
-        <div className="font-quicksand relative w-full min-h-[600px] md:min-h-[900px] flex flex-col md:flex-row items-end rounded-b-3xl overflow-hidden">
+        <div className="font-aristotelicaLight relative w-full min-h-[600px] md:min-h-[900px] flex flex-col md:flex-row items-end rounded-b-3xl overflow-hidden">
 
             <img
                 src={friend}
@@ -26,7 +26,7 @@ function SeccionCuatro() {
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">¿Por qué ser parte del Club?</h2>
 
                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed sm:leading-normal md:leading-loose lg:leading-[2] text-white mb-6 sm:mb-8">
-                    Al unirte al Club de Artistas 593, accedes a una serie de beneficios diseñados<br />
+                    Al unirte al Club de Artistas, accedes a una serie de beneficios diseñados<br />
                     específicamente para apoyar tu bienestar, desarrollo artístico y crecimiento personal.<br />
                     Nuestras membresías te brindan oportunidades únicas para mejorar tu salud, promover tu<br />
                     carrera y disfrutar de servicios exclusivos que harán una diferencia en tu vida artística.

@@ -16,7 +16,7 @@ interface SectionTresProps2 {
 
 function SectionCuatro() {
     return (
-        <div className="font-quicksand flex flex-col lg:flex-row bg-gray-100 p-8 rounded-lg shadow-md max-w-7xl mx-auto">
+        <div className="font-aristotelicaLight flex flex-col lg:flex-row bg-gray-100 p-8 rounded-lg shadow-md max-w-7xl mx-auto">
 
             <div className="relative bg-blue-900 text-white p-8 rounded-lg flex flex-col items-start justify-center space-y-6 mb-8 lg:mb-0 lg:mr-8 lg:w-1/3 max-w-sm lg:max-w-md" style={{ backgroundImage: `url(${young})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="absolute inset-0 bg-blue-900 opacity-80 rounded-lg z-0"></div>
@@ -25,38 +25,38 @@ function SectionCuatro() {
                 <p className="text-left text-base leading-relaxed z-10">
                     Ideal para aquello artistas que buscan apoyo esencial y acceso a beneficios fundamentales.
                 </p>
-                <h4 className="text-3xl font-semibold z-10">$30 anual</h4>
+                <h4 className="text-3xl font-semibold z-10 font-quicksand">$30 anual</h4>
                 <button className="bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-600 transition z-10">Contratar ahora</button>
-                <img src={manoTarjetaIzquierda} alt="Tarjeta de Membresía" className="w-48 h-auto mt-4 self-center z-10" />
+                <img src={manoTarjetaIzquierda} alt="Tarjeta de Membresía" className="w-[500px] h-auto mt-4 self-center z-10" />
             </div>
 
-            <div className="flex-1 space-y-8">
+            <div className="flex-1 space-y-12 mt-20">
                 <BenefitItem
                     icon={beneficiosDescuentos}
                     title="Beneficios y descuentos en Servicios de Salud"
                     description={
-                        "Reembolso de Recetas médicas: Hasta $50 de reembolso en el costo de medicamentos prescritos.<br />" +
-                        "Descuentos y reembolsos en exámenes médicos: Hasta $100 de reembolso en análisis de laboratorio y estudios de diagnóstico.<br />" +
-                        "Descuentos en Servicios Odontológicos: Consulta gratuita y 50% de descuento en tratamientos odontológicos no estéticos."
+                        "Reembolso de Recetas médicas: Hasta $cincuenta de reembolso en el costo de medicamentos prescritos.<br />" +
+                        "Descuentos y reembolsos en exámenes médicos: Hasta $cien de reembolso en análisis de laboratorio y estudios de diagnóstico.<br />" +
+                        "Descuentos en Servicios Odontológicos: Consulta gratuita y cincuenta% de descuento en tratamientos odontológicos no estéticos."
                     }
                 />
                 <BenefitItem icon={accesoPriotario} title="Acceso Prioritario a Talleres y Capacitaciones" description="Reparaciones Emergentes: Recibe asistencia en reparaciones domésticas necesarias como plomería, electricidad, mano de obra y albañilería para resolver problemas inesperados en tu hogar." />
 
-                <BenefitItem icon={beneficioProduction} title="Beneficios en Producción Artística" description={"Producción Musical:Asistencia de hasta $250 para grabación, mezcla o masterización de proyectos.<br />" +
-                    "Producción Audiovisual:Hasta $250 para creación de videoclips.<br />" +
-                    "Sesiones Fotográficas:Hasta $100 para sesiones profesionales.<br />" +
-                    "Gira de Medios:Apoyo de $250 para organización de entrevistas en medios."} />
+                <BenefitItem icon={beneficioProduction} title="Beneficios en Producción Artística" description={"Producción Musical:Asistencia de hasta $dos ciento cincuenta para grabación, mezcla o masterización de proyectos.<br />" +
+                    "Producción Audiovisual:Hasta $dos ciento cincuenta para creación de videoclips.<br />" +
+                    "Sesiones Fotográficas:Hasta $cien para sesiones profesionales.<br />" +
+                    "Gira de Medios:Apoyo de $dos ciento ciencuenta para organización de entrevistas en medios."} />
 
                 <BenefitItem icon={servicioFunerarios} title="Servicio Funerarios Gratuitos" description="Cobertura de servicios funerarios para miembros y familiares hasta el segundo grado de consanguinidad." />
 
-                <BenefitItem icon={servicioHospedaje} title="Servicio de Hospedaje" description="Apoyo de hasta $20 por noche en alojamientos seleccionados por la Fundación." />
+                <BenefitItem icon={servicioHospedaje} title="Servicio de Hospedaje" description="Apoyo de hasta $vente por noche en alojamientos seleccionados por la Fundación." />
 
                 <BenefitItem icon={beneficioMedicina} title="Beneficios en Medicina Estética" description={"Te ofrecemos acceso a convenios exclusivos con centros de medicina estética para ayudarte a lucir y sentirte bien, como todo un artista. Estos beneficios incluyen:<br />" +
-                    "Limpiezas Faciales al 50% <br />" +
-                    "Descuento del 10% en Todos los Tratamientos Estéticos"} />
+                    "Limpiezas Faciales al cincuenta% <br />" +
+                    "Descuento del diez% en Todos los Tratamientos Estéticos"} />
 
                 <BenefitItem icon={gimnasio} title="Beneficios en Gimnasio" description={"Sabemos que un artista debe lucir tan bien como se siente. Por eso, te ofrecemos beneficios exclusivos en gimnasios afiliados para que te mantengas en forma y radiante:<br />" +
-                    "50% de descuento en las mensualidades <br />" +
+                    "cincuenta% de descuento en las mensualidades <br />" +
                     "Inscripción GRATIS"} />
 
             </div>

@@ -4,7 +4,7 @@ import cora from "../../assets/img/cora.png";
 
 function SectionCero() {
     return (
-        <section className="font-quicksand bg-red-800 text-white py-20">
+        <section className="font-aristotelicaLight bg-red-800 text-white py-20">
             <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-16">
                 <div className="flex flex-row items-center text-left md:w-1/3 gap-6">
                     <img src={person} alt="Impacto Real" className="w-16 h-16" />

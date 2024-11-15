@@ -8,7 +8,7 @@ interface SectionTresProps1 {
 
 function SectionDos({beneficio1, beneficio2, beneficio3}:SectionTresProps1) {
     return (
-        <div className="font-quicksand flex flex-col lg:flex-row gap-8 p-8 justify-center items-center">
+        <div className="font-aristotelicaLight flex flex-col lg:flex-row gap-8 p-8 justify-center items-center">
 
             <div className="w-full lg:w-1/2 space-y-4 ">
                 <h4 className="text-lg md:text-xl font-bold mb-2">Beneficios:</h4>
@@ -25,7 +25,7 @@ function SectionDos({beneficio1, beneficio2, beneficio3}:SectionTresProps1) {
                         <div className="bg-red-600 h-2 md:h-3 rounded-full" style={{ width: "45%" }}></div>
                     </div>
 
-                    <p className="text-xs md:text-sm mb-4 font-bold">Beneficiarios: 11</p>
+                    <p className="text-xs md:text-sm mb-4 font-bold">Beneficiarios: once</p>
 
                     <div className="flex justify-end">
                         <button className="bg-yellow-500 text-black px-4 py-2 md:px-6 md:py-2.5 rounded-full hover:bg-yellow-600 transition text-sm md:text-base font-bold">

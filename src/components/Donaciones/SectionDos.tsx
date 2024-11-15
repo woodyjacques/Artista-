@@ -4,13 +4,13 @@ import Lucia from "../../assets/img/Lucia.png";
 
 function SectionDos() {
     return (
-        <div className="font-quicksand max-w-6xl mx-auto p-8 mb-20 mt-20">
+        <div className="font-aristotelicaLight max-w-6xl mx-auto p-8 mb-20 mt-20">
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 
                 <div className="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between space-y-4">
                     <div className="text-6xl text-black">“</div>
                     <p className="text-gray-600 text-base leading-relaxed">
-                        Donar a la Fundación Artistas 593 ha sido una experiencia sumamente enriquecedora. Ver cómo mi contribución ayuda a que jóvenes artistas puedan contar con motivación para elaborar sus proyectos comunicativos me llena de orgullo.
+                        Donar a la Fundación Artistas quiniento noventa y tres ha sido una experiencia sumamente enriquecedora. Ver cómo mi contribución ayuda a que jóvenes artistas puedan contar con motivación para elaborar sus proyectos comunicativos me llena de orgullo.
                     </p>
                     <div className="text-6xl text-black self-end">”</div>
                     <div className="flex items-center space-x-3 mt-4">
@@ -24,7 +24,7 @@ function SectionDos() {
                 <div className="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between space-y-4">
                     <div className="text-6xl text-black">“</div>
                     <p className="text-gray-600 text-base leading-relaxed">
-                        Donar a la Fundación Artistas 593 ha sido una experiencia sumamente enriquecedora. Ver cómo mi contribución ayuda a que jóvenes artistas puedan contar con motivación para elaborar sus proyectos comunicativos me llena de orgullo.
+                        Donar a la Fundación Artistas quiniento noventa y tres ha sido una experiencia sumamente enriquecedora. Ver cómo mi contribución ayuda a que jóvenes artistas puedan contar con motivación para elaborar sus proyectos comunicativos me llena de orgullo.
                     </p>
                     <div className="text-6xl text-black self-end">”</div>
                     <div className="flex items-center space-x-3 mt-4">

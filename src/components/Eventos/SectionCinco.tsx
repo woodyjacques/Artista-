@@ -2,7 +2,7 @@ import chica from "../../assets/img/chicaTambora.jpg";
 
 function SectionCinco() {
     return (
-        <div className="font-quicksand grid gap-6 sm:grid-cols-2 lg:grid-cols-3 p-6">
+        <div className="font-aristotelicaLight grid gap-6 sm:grid-cols-2 lg:grid-cols-3 p-6">
 
             <div className="bg-white rounded-lg shadow-md p-6 max-w-sm mx-auto">
                 <img src={chica} alt="Evento musical" className="rounded-t-lg w-full h-56 object-cover" />

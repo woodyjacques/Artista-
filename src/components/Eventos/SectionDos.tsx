@@ -4,7 +4,7 @@ import ubicacion from "../../assets/img/ubicacion.png";
 
 function SectionDos() {
     return (
-        <div className=" font-quicksand bg-white rounded-lg shadow-md p-6 md:p-8 flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-8 max-w-full w-full mx-auto">
+        <div className=" font-aristotelicaLight bg-white rounded-lg shadow-md p-6 md:p-8 flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-8 max-w-full w-full mx-auto">
 
             <div className="w-full md:w-1/4 flex-shrink-0">
                 <img src={chica} alt="Chica tocando tambora" className="rounded-lg object-cover w-full h-full" />

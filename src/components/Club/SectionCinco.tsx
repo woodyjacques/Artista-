@@ -1,10 +1,10 @@
 function SectionCinco() {
     return (
-        <div className="font-quicksand grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-6">
+        <div className="font-aristotelicaLight grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-6">
 
             <div className="bg-white rounded-lg shadow-md p-8 max-w-xs mx-auto space-y-6 h-80">
                 <div className="flex items-center">
-                    <div className="bg-yellow-500 text-white w-20 h-12 rounded-r-full flex items-center justify-center text-lg font-semibold">
+                    <div className="bg-yellow-500 text-white w-20 h-12 rounded-r-full flex items-center justify-center text-lg font-semibold font-quicksand">
                         01
                     </div>
                 </div>
@@ -20,7 +20,7 @@ function SectionCinco() {
 
             <div className="bg-white rounded-lg shadow-md p-8 max-w-xs mx-auto space-y-6 h-80">
                 <div className="flex items-center">
-                    <div className="bg-blue-900 text-white w-20 h-12 rounded-r-full flex items-center justify-center text-lg font-semibold">
+                    <div className="bg-blue-900 text-white w-20 h-12 rounded-r-full flex items-center justify-center text-lg font-semibold font-quicksand">
                         02
                     </div>
                 </div>
@@ -36,7 +36,7 @@ function SectionCinco() {
 
             <div className="bg-white rounded-lg shadow-md p-8 max-w-xs mx-auto space-y-6 h-80">
                 <div className="flex items-center">
-                    <div className="bg-red-900 text-white w-20 h-12 rounded-r-full flex items-center justify-center text-lg font-semibold">
+                    <div className="bg-red-900 text-white w-20 h-12 rounded-r-full flex items-center justify-center text-lg font-semibold font-quicksand">
                         03
                     </div>
                 </div>
@@ -52,7 +52,7 @@ function SectionCinco() {
 
             <div className="bg-white rounded-lg shadow-md p-8 max-w-xs mx-auto space-y-6 h-80">
                 <div className="flex items-center">
-                    <div className="bg-yellow-500 text-white w-20 h-12 rounded-r-full flex items-center justify-center text-lg font-semibold">
+                    <div className="bg-yellow-500 text-white w-20 h-12 rounded-r-full flex items-center justify-center text-lg font-semibold font-quicksand">
                         04
                     </div>
                 </div>
