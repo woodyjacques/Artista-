@@ -1,15 +1,15 @@
-import Footer from "../components/Home/Footer";
-import SectionCero from "../components/Home/SectionCero";
-import SectionCinco from "../components/Home/SectionCinco";
-import SectionCuatro from "../components/Home/SectionCuatro";
-import SectionDos from "../components/Home/SectionDos";
-import SectionNueve from "../components/Home/SectionNueve";
-import SectionOcho from "../components/Home/SectionOcho";
-import SectionSeis from "../components/Home/SectionSeis";
-import SectionSiete from "../components/Home/SectionSiete";
-import SectionTres from "../components/Home/SectionTres";
-import SectionUno from "../components/Home/SectionUno";
-import Header from "../components/Home/Header";
+import Footer from "../../src/components/Home/Footer";
+import SectionCero from "../../src/components/Home/SectionCero";
+import SectionCinco from "../../src/components/Home/SectionCinco";
+import SectionCuatro from "../../src/components/Home/SectionCuatro";
+import SectionDos from "../../src/components/Home/SectionDos";
+import SectionNueve from "../../src/components/Home/SectionNueve";
+import SectionOcho from "../../src/components/Home/SectionOcho";
+import SectionSeis from "../../src/components/Home/SectionSeis";
+import SectionSiete from "../../src/components/Home/SectionSiete";
+import SectionTres from "../../src/components/Home/SectionTres";
+import SectionUno from "../../src/components/Home/SectionUno";
+import Header from "../../src/components/Home/Header";
 
 function Home() {
     return (

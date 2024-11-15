@@ -1,7 +1,7 @@
 import chicaTambora from "../../assets/img/chicaTambora.jpg";
 import img1Campaña from "../../assets/img/img1Campaña.png";
 import friend from "../../assets/img/friend.jpg";
-import cantantes from "../../assets/img/Cant.jpg";
+import cantantes from "../../../src/assets/img/cant.jpg";
 
 function SectionTres() {
     return (
