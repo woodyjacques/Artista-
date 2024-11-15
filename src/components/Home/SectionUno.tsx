@@ -7,7 +7,7 @@ function SectionUno() {
             <div className="relative z-10 flex flex-col md:flex-row justify-between items-center md:items-start">
                 <div className="md:w-2/3 order-2 md:order-1 mt-8 md:mt-0">
                     <h2 className="text-4xl font-bold mb-4">Tu Aporte Transforma Vidas</h2>
-                    <p className="text-lg font-bold custom-line-spacing">
+                    <p className="text-lg font-bold">
                         Cada donación nos ayuda a brindar apoyo a artistas que lo necesitan. Con tu ayuda, podemos ofrecer recursos, capacitación y oportunidades que impulsan el arte en Ecuador.
                     </p>
                 </div>

@@ -23,8 +23,10 @@ function Header() {
             <div className=" relative z-10">
 
                 <div className="font-quicksand bg-transparent py-4">
-                    <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 space-y-4 md:space-y-0">
+                    <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 space-y-4 md:space-y-0 md:flex hidden">
+
                         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 text-white">
+
                             <div className="flex items-center space-x-2">
                                 <div className="bg-red-800 rounded-full p-2">
                                     <img src={correo} alt="" />
@@ -118,7 +120,7 @@ function Header() {
                             </h3>
                             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 md:mb-10 relative z-20">
                                 <span className="relative">Transformando</span>
-                                <span className="absolute -ml-8 sm:-ml-10 md:-ml-12 -top-8 sm:-top-10 md:-top-12 left-0 text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-transparent transform translate-x-1 sm:translate-x-2 md:translate-x-4 lg:translate-x-6 translate-y-1 sm:translate-y-2 md:translate-y-4 lg:translate-y-6 stroke-text">
+                                <span className="absolute -ml-8 sm:-ml-10 md:-ml-12 -top-8 sm:-top-10 md:-top-12 left-0 text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-transparent transform translate-x-1 sm:translate-x-2 md:translate-x-4 lg:translate-x-6 translate-y-1 sm:translate-y-2 md:translate-y-4 lg:translate-y-6 stroke-text hidden md:inline">
                                     Transformando
                                 </span>
                             </h1>

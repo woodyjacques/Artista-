@@ -25,9 +25,12 @@ function Header({ title, subtitle }: SectionTresProps) {
             <div className="rounded-b-3xl absolute inset-0 bg-blue-900 opacity-80 z-0"></div>
 
             <div className=" relative z-10">
+
                 <div className="font-quicksand bg-transparent py-4">
-                    <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 space-y-4 md:space-y-0">
+
+                    <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 space-y-4 md:space-y-0 md:flex hidden">
                         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 text-white">
+
                             <div className="flex items-center space-x-2">
                                 <div className="bg-red-700 rounded-full p-2">
                                     <img src={correo} alt="" />
@@ -118,7 +121,7 @@ function Header({ title, subtitle }: SectionTresProps) {
                             <h3 className="text-lg sm:text-xl lg:text-3xl font-semibold mb-4 sm:mb-6">{title}</h3>
                             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight relative">
                                 <span className="relative z-20">{subtitle}</span>
-                                <span className="absolute -ml-8 sm:-ml-10 md:-ml-12 -top-8 sm:-top-10 md:-top-12 left-0 text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-transparent transform translate-x-1 sm:translate-x-2 md:translate-x-4 lg:translate-x-6 translate-y-1 sm:translate-y-2 md:translate-y-4 lg:translate-y-6 stroke-text">
+                                <span className="absolute -ml-8 sm:-ml-10 md:-ml-12 -top-8 sm:-top-10 md:-top-12 left-0 text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-transparent transform translate-x-1 sm:translate-x-2 md:translate-x-4 lg:translate-x-6 translate-y-1 sm:translate-y-2 md:translate-y-4 lg:translate-y-6 stroke-text hidden md:inline">
                                     {subtitle}
                                 </span>
                             </h1>
