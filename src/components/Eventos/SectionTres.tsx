@@ -21,7 +21,7 @@ function SectionTres() {
                 <h4 className="text-2xl font-bold">Nombre del evento</h4>
                 <p className="text-gray-600 text-lg font-semibold">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the 1500s.
+                    the industry's standard dummy text ever since the.
                 </p>
                 <p className="text-gray-500 text-lg flex justify-center md:justify-start items-center space-x-2">
                     <span><img src={ubicacion} alt="Ubicación" className="w-6 h-6" /></span>

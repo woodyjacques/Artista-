@@ -38,7 +38,7 @@ function SectionDos() {
                 <p className="text-left text-base leading-relaxed z-10">
                     La Membresía Gold te ofrece todo lo que la Membresía Básica brinda, además de una gama de beneficios exclusivos para enriquecer tu vida personal y profesional. ¡Descubre cómo puedes aprovechar al máximo tu membresía con estos beneficios adicionales!
                 </p>
-                <h4 className="text-3xl font-semibold z-10">$120 anual</h4>
+                <h4 className="text-3xl font-semibold z-10 font-quicksand">$120 anual</h4>
                 <button className="bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-600 transition z-10">Contratar ahora</button>
                 <img src={manoTarjetaDerecha} alt="Tarjeta de Membresía" className="w-[500px] h-auto mt-4 self-center z-10" />
             </div>
