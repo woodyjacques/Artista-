@@ -4,6 +4,7 @@ import Footer from "../components/Home/Footer";
 import SectionCero from "../components/Home/SectionCero";
 import SectionUno from "../components/Home/SectionUno";
 import Header from "../components/Nosotros/Header";
+import WhatsAppFloatingButton from "../components/whatsapp";
 
 function Contacto() {
     return (
@@ -17,6 +18,7 @@ function Contacto() {
             <SectionDos/>
             <SectionCero />
             <Footer />
+            <WhatsAppFloatingButton />
         </div>
     );
 }

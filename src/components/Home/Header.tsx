@@ -62,7 +62,7 @@ function Header() {
 
                     <div className="w-full flex justify-between items-center">
 
-                        <img src={logo} alt="Logo" className="md:hs-22 pl-4" />
+                        <img src={logo} alt="Logo" className="md:hs-22 pl-4 ml-10" />
 
                         <div className="md:hidden">
                             <button onClick={toggleMenu} className="text-white focus:outline-none">
@@ -120,7 +120,7 @@ function Header() {
                             </h3>
                             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 md:mb-10 relative z-20">
                                 <span className="relative">Transformando</span>
-                                <span className="absolute -ml-8 sm:-ml-10 md:-ml-12 -top-8 sm:-top-10 md:-top-12 left-0 text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-transparent transform translate-x-1 sm:translate-x-2 md:translate-x-4 lg:translate-x-6 translate-y-1 sm:translate-y-2 md:translate-y-4 lg:translate-y-6 stroke-text hidden md:inline">
+                                <span className="absolute -ml-8 sm:-ml-10 md:-ml-12 -top-8 sm:-top-10 md:-top-12 left-0 text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-transparent transform translate-x-1 sm:translate-x-2 md:translate-x-4 lg:translate-x-6 translate-y-1 sm:translate-y-2 md:translate-y-4 lg:translate-y-6 stroke-text hidden md:inline opacity-50">
                                     Transformando
                                 </span>
                             </h1>
@@ -131,9 +131,11 @@ function Header() {
                                 <button className="bg-red-800 text-white px-4 sm:px-5 md:px-6 py-2 sm:py-3 rounded-full shadow-lg hover:bg-red-700 transition text-sm sm:text-base md:text-lg lg:text-xl font-bold">
                                     Ver proyectos
                                 </button>
-                                <button className="bg-yellow-500 text-black px-4 sm:px-5 md:px-6 py-2 sm:py-3 rounded-full shadow-lg hover:bg-yellow-600 transition text-sm sm:text-base md:text-lg lg:text-xl font-bold">
-                                    Hacer donación
-                                </button>
+                                <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer">
+                                    <button className="bg-yellow-500 text-black px-4 sm:px-5 md:px-6 py-2 sm:py-3 rounded-full shadow-lg hover:bg-yellow-600 transition text-sm sm:text-base md:text-lg lg:text-xl font-bold">
+                                        Hacer donación
+                                    </button>
+                                </a>
                             </div>
                         </div>
 

@@ -34,9 +34,10 @@ function SectionCinco() {
                         className="px-4 py-2 rounded-full border border-gray-300 text-center w-40 shadow-md"
                     />
 
-                    <button className="bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-600 transition shadow-md">
+                    <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer"><button className="bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-600 transition shadow-md">
                         Hacer donación
-                    </button>
+                    </button></a>
+
                 </div>
             </div>
         </div>

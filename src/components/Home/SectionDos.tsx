@@ -24,9 +24,11 @@ function SectionDos() {
                         </div>
                         <p className="text-sm text-gray-600 mb-2 font-bold">Beneficiados: nueve</p>
                         <div className="flex gap-4 mt-auto">
-                            <button className="bg-red-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-red-700 transition font-bold">
-                                Ser beneficiario
-                            </button>
+                            <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer">
+                                <button className="bg-red-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-red-700 transition font-bold">
+                                    Ser beneficiario
+                                </button>
+                            </a>
                             <button className="bg-blue-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-blue-900 transition font-bold">
                                 Ver
                             </button>
@@ -45,9 +47,11 @@ function SectionDos() {
                         </div>
                         <p className="text-sm text-gray-600 mb-2 font-bold">Beneficiados: nueve</p>
                         <div className="flex gap-4 mt-auto">
-                            <button className="bg-red-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-red-700 transition">
-                                Ser beneficiario
-                            </button>
+                            <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer">
+                                <button className="bg-red-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-red-700 transition">
+                                    Ser beneficiario
+                                </button>
+                            </a>
                             <button className="bg-blue-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-blue-900 transition">
                                 Ver
                             </button>
@@ -66,9 +70,11 @@ function SectionDos() {
                         </div>
                         <p className="text-sm text-gray-600 mb-2 font-bold">Beneficiados: nueve</p>
                         <div className="flex gap-4 mt-auto">
-                            <button className="bg-red-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-red-700 transition">
-                                Ser beneficiario
-                            </button>
+                            <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer">
+                                <button className="bg-red-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-red-700 transition">
+                                    Ser beneficiario
+                                </button>
+                            </a>
                             <button className="bg-blue-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-blue-900 transition">
                                 Ver
                             </button>
@@ -87,9 +93,11 @@ function SectionDos() {
                         </div>
                         <p className="text-sm text-gray-600 mb-2 font-bold">Beneficiados: nueve</p>
                         <div className="flex gap-4 mt-auto">
-                            <button className="bg-red-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-red-700 transition">
-                                Ser beneficiario
-                            </button>
+                            <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer">
+                                <button className="bg-red-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-red-700 transition">
+                                    Ser beneficiario
+                                </button>
+                            </a>
                             <button className="bg-blue-800 text-white py-2 px-4 rounded-full font-semibold hover:bg-blue-900 transition">
                                 Ver
                             </button>

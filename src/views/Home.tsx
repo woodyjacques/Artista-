@@ -10,6 +10,7 @@ import SectionSiete from "../../src/components/Home/SectionSiete";
 import SectionTres from "../../src/components/Home/SectionTres";
 import SectionUno from "../../src/components/Home/SectionUno";
 import Header from "../../src/components/Home/Header";
+import WhatsAppFloatingButton from "../components/whatsapp";
 
 function Home() {
     return (
@@ -27,6 +28,7 @@ function Home() {
             <SectionUno />
             <SectionCero />
             <Footer />
+            <WhatsAppFloatingButton />
         </div>
     );
 }

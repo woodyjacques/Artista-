@@ -1,13 +1,12 @@
-import img2 from "../../assets/img/img2Campaña.png";
-import homeCampaña from "../../assets/img/homeCampaña.png";
-
 interface SectionTresProps {
     title: string;
     subtitle: string;
     description: string;
+    img2: string;
+    homeCampaña: string;
 }
 
-function SectionTres({ title, subtitle, description }: SectionTresProps) {
+function SectionTres({ title, subtitle, description, img2, homeCampaña }: SectionTresProps) {
     return (
         <div className="font-aristotelicaLight flex flex-col lg:flex-row items-center justify-center gap-8 px-8 lg:px-20 py-8">
 

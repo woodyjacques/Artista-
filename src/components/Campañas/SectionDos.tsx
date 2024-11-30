@@ -1,12 +1,11 @@
-import img1 from "../../assets/img/img1Campaña.png";
-
 interface SectionTresProps1 {
     beneficio1: string;
     beneficio2: string;
     beneficio3: string;
+    img1: string;
 }
 
-function SectionDos({beneficio1, beneficio2, beneficio3}:SectionTresProps1) {
+function SectionDos({ beneficio1, beneficio2, beneficio3, img1 }: SectionTresProps1) {
     return (
         <div className="font-aristotelicaLight flex flex-col lg:flex-row gap-8 p-8 justify-center items-center">
 

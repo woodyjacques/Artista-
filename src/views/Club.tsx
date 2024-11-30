@@ -7,6 +7,7 @@ import SectionCero from "../components/Home/SectionCero";
 import SectionTres from "../components/Home/SectionTres";
 import SectionUno from "../components/Home/SectionUno";
 import Header from "../components/Nosotros/Header";
+import WhatsAppFloatingButton from "../components/whatsapp";
 
 function Club() {
     return (
@@ -22,6 +23,7 @@ function Club() {
             <SectionUno />
             <SectionCero />
             <Footer />
+            <WhatsAppFloatingButton />
         </div>
     );
 }

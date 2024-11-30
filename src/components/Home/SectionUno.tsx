@@ -13,9 +13,11 @@ function SectionUno() {
                 </div>
             </div>
             <div className="absolute bottom-16 right-8 z-10">
-                <button className="bg-yellow-400 text-black py-2 px-10 rounded-full font-bold text-base hover:bg-yellow-500 transition">
-                    Donar ahora
-                </button>
+                <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer">
+                    <button className="bg-yellow-400 text-black py-2 px-10 rounded-full font-bold text-base hover:bg-yellow-500 transition">
+                        Donar ahora
+                    </button>
+                </a>
             </div>
         </section>
     );

@@ -33,9 +33,11 @@ function SeccionCuatro() {
                 </p>
 
                 <div className="relative z-10 flex justify-center md:justify-end">
-                    <button className="text-black font-bold bg-yellow-400 font-semibold py-2 px-4 sm:py-3 sm:px-6 rounded-full hover:bg-yellow-300 transition duration-300">
-                        Ver las membresías
-                    </button>
+                    <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer">
+                        <button className="text-black font-bold bg-yellow-400 font-semibold py-2 px-4 sm:py-3 sm:px-6 rounded-full hover:bg-yellow-300 transition duration-300">
+                            Ver las membresías
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

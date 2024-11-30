@@ -27,9 +27,11 @@ function SectionCinco() {
                             <li>• Beneficios en Gimnasio</li>
                         </ul>
 
-                        <button className="font-bold bg-yellow-500 text-black mt-6 py-3 px-4 w-full md:w-2/3 rounded-full hover:bg-yellow-600 mx-auto block">
-                            Quiero afiliarme
-                        </button>
+                        <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer">
+                            <button className="font-bold bg-yellow-500 text-black mt-6 py-3 px-4 w-full md:w-2/3 rounded-full hover:bg-yellow-600 mx-auto block">
+                                Quiero afiliarme
+                            </button>
+                        </a>
                     </div>
                 </div>
 
@@ -53,9 +55,11 @@ function SectionCinco() {
                             <li>• Tarjetas BONO</li>
                         </ul>
 
-                        <button className="font-bold bg-red-700 text-white mt-6 py-3 px-4 w-full md:w-2/3 rounded-full hover:bg-red-800 mx-auto block">
-                            Quiero afiliarme
-                        </button>
+                        <a href="https://wa.me/593993923690" target="_blank" rel="noopener noreferrer">
+                            <button className="font-bold bg-red-700 text-white mt-6 py-3 px-4 w-full md:w-2/3 rounded-full hover:bg-red-800 mx-auto block">
+                                Quiero afiliarme
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

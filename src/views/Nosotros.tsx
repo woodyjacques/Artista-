@@ -6,6 +6,7 @@ import SectionCinco from "../components/Nosotros/SectionCinco";
 import SectionCuatro from "../components/Nosotros/SectionCuatro";
 import SectionDos from "../components/Nosotros/SectionDos";
 import SectionTres from "../components/Nosotros/SectionTres";
+import WhatsAppFloatingButton from "../components/whatsapp";
 
 function Nosotros() {
     return (
@@ -21,6 +22,7 @@ function Nosotros() {
             <SectionDos />
             <SectionCero />
             <Footer />
+            <WhatsAppFloatingButton />
         </div>
     );
 }
